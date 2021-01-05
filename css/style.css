@@ -1,6 +1,11 @@
 html{
   font-family: 'Poppins', sans-serif;
 }
+body{
+  margin: 0;
+  padding: 0;
+  
+}
 a{
   text-decoration: none;
 }
@@ -59,13 +64,20 @@ section{
   border-image-slice: 1;
 }
 footer{
-  height: 200px;
+  height: 300px;
   width: 100%;
-  background-image: url('images/footer.png');
+  background-image: url(../images/footer.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 footer p{
-  text-align: center;
+  padding-top: 30px;
+  font-size: 18px;
+  color: white;
 }
